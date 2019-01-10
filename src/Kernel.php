@@ -11,7 +11,7 @@ class Kernel extends BaseKernel
 
     protected function configureRoutes(RouteCollectionBuilder $routes)
     {
-
+        //$routes->add('/', 'Controller\DefaultController::index');
     }
 
     protected function configureContainer(ContainerBuilder $container)
