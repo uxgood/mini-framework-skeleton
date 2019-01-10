@@ -1,0 +1,27 @@
+{
+    "name": "uxgood/mini-framework-skeleton",
+    "type": "project",
+    "license": "MIT",
+    "description": "A minimal project recommended to create bare bones applications with symfony components",
+    "require": {
+        "uxgood/mini-framework": "^0.1.0@dev"
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
